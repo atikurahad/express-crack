@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Alice Johnson",
+    "designation": "Software Engineer",
+    "salary": 75000,
+    "address": "123 Maple Street, Springfield, IL",
+    "email": "alice.johnson@example.com",
+    "phone": "555-1234",
+    "age": 29
+  },
+  {
+    "name": "Bob Smith",
+    "designation": "Project Manager",
+    "salary": 95000,
+    "address": "456 Oak Avenue, Greenfield, WI",
+    "email": "bob.smith@example.com",
+    "phone": "555-5678",
+    "age": 35
+  },
+  {
+    "name": "Carol Lee",
+    "designation": "Data Scientist",
+    "salary": 87000,
+    "address": "789 Pine Lane, Riverdale, NY",
+    "email": "carol.lee@example.com",
+    "phone": "555-8765",
+    "age": 32
+  },
+  {
+    "name": "David Brown",
+    "designation": "Marketing Manager",
+    "salary": 72000,
+    "address": "321 Elm Street, Lincoln, NE",
+    "email": "david.brown@example.com",
+    "phone": "555-2345",
+    "age": 38
+  },
+  {
+    "name": "Eve Davis",
+    "designation": "HR Specialist",
+    "salary": 68000,
+    "address": "654 Willow Drive, Concord, NH",
+    "email": "eve.davis@example.com",
+    "phone": "555-3456",
+    "age": 27
+  },
+  {
+    "name": "Frank Green",
+    "designation": "Quality Analyst",
+    "salary": 64000,
+    "address": "987 Cedar Road, Orlando, FL",
+    "email": "frank.green@example.com",
+    "phone": "555-4567",
+    "age": 30
+  },
+  {
+    "name": "Grace Hall",
+    "designation": "UI/UX Designer",
+    "salary": 70000,
+    "address": "111 Birch Street, Madison, WI",
+    "email": "grace.hall@example.com",
+    "phone": "555-5679",
+    "age": 26
+  },
+  {
+    "name": "Hank Turner",
+    "designation": "DevOps Engineer",
+    "salary": 80000,
+    "address": "222 Ash Boulevard, Portland, OR",
+    "email": "hank.turner@example.com",
+    "phone": "555-6789",
+    "age": 34
+  },
+  {
+    "name": "Ivy Adams",
+    "designation": "Business Analyst",
+    "salary": 69000,
+    "address": "333 Fir Way, Denver, CO",
+    "email": "ivy.adams@example.com",
+    "phone": "555-7890",
+    "age": 31
+  },
+  {
+    "name": "Jack Carter",
+    "designation": "Product Manager",
+    "salary": 96000,
+    "address": "444 Palm Lane, San Diego, CA",
+    "email": "jack.carter@example.com",
+    "phone": "555-8901",
+    "age": 39
+  },
+  {
+    "name": "Karen Wilson",
+    "designation": "Content Strategist",
+    "salary": 67000,
+    "address": "555 Cypress Street, Dallas, TX",
+    "email": "karen.wilson@example.com",
+    "phone": "555-9012",
+    "age": 28
+  },
+  {
+    "name": "Leo Miller",
+    "designation": "Software Architect",
+    "salary": 110000,
+    "address": "666 Magnolia Drive, Seattle, WA",
+    "email": "leo.miller@example.com",
+    "phone": "555-0123",
+    "age": 42
+  },
+  {
+    "name": "Mia Moore",
+    "designation": "Recruiter",
+    "salary": 63000,
+    "address": "777 Spruce Lane, Miami, FL",
+    "email": "mia.moore@example.com",
+    "phone": "555-1235",
+    "age": 25
+  },
+  {
+    "name": "Nathan Harris",
+    "designation": "Accountant",
+    "salary": 62000,
+    "address": "888 Redwood Avenue, Boston, MA",
+    "email": "nathan.harris@example.com",
+    "phone": "555-2346",
+    "age": 29
+  },
+  {
+    "name": "Olivia Reed",
+    "designation": "Operations Manager",
+    "salary": 78000,
+    "address": "999 Alder Road, Atlanta, GA",
+    "email": "olivia.reed@example.com",
+    "phone": "555-3457",
+    "age": 36
+  },
+  {
+    "name": "Paul Walker",
+    "designation": "IT Support Specialist",
+    "salary": 55000,
+    "address": "101 Maple Avenue, Chicago, IL",
+    "email": "paul.walker@example.com",
+    "phone": "555-4568",
+    "age": 33
+  },
+  {
+    "name": "Quinn Bennett",
+    "designation": "Graphic Designer",
+    "salary": 61000,
+    "address": "202 Willow Street, Houston, TX",
+    "email": "quinn.bennett@example.com",
+    "phone": "555-5670",
+    "age": 26
+  },
+  {
+    "name": "Rachel Young",
+    "designation": "Technical Writer",
+    "salary": 59000,
+    "address": "303 Elm Lane, Phoenix, AZ",
+    "email": "rachel.young@example.com",
+    "phone": "555-6780",
+    "age": 31
+  },
+  {
+    "name": "Steve Perez",
+    "designation": "Database Administrator",
+    "salary": 88000,
+    "address": "404 Oak Drive, Las Vegas, NV",
+    "email": "steve.perez@example.com",
+    "phone": "555-7891",
+    "age": 37
+  },
+  {
+    "name": "Tina Collins",
+    "designation": "SEO Specialist",
+    "salary": 64000,
+    "address": "505 Pine Boulevard, Nashville, TN",
+    "email": "tina.collins@example.com",
+    "phone": "555-8902",
+    "age": 29
+  }
+]

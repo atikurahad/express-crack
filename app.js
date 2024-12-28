@@ -1,8 +1,7 @@
 const express = require('express');
 const router = require('./src/routes/api');
-
 const app = express();
-
+const mongoose = require('mongoose');
 
 
 //sequrity middlewares import
@@ -25,6 +24,23 @@ const limiter = rateLimit({
     legacyHeaders: false, // Disable the `X-RateLimit-*` headers
   });
     app.use(limiter);
+
+
+  //MongoDB database connection
+async function connectToMongoDB() {
+  try {
+      const URI = `mongodb://0.0.0.0:27017/practice`;
+      await mongoose.connect(URI);
+      console.log("Connected to MongoDB");
+
+      // Perform database operations here
+  } catch (error) {
+      console.error("Error connecting to MongoDB:", error);
+  }
+}
+
+// Call the async function to connect to MongoDB
+connectToMongoDB();
 
 app.use("/api/v1",router)
 
