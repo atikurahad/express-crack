@@ -6,6 +6,7 @@ const mongoose = require('mongoose');
 
 //sequrity middlewares import
  const cors = require('cors');
+ const bodyParser = require('body-parser');
  const xss = require('xss-clean');
  const rateLimit = require('express-rate-limit');
  const mongoSanitize = require('express-mongo-sanitize');
@@ -15,7 +16,7 @@ const mongoose = require('mongoose');
  app.use(express.json());
  app.use(xss());
  app.use(mongoSanitize());
-
+app.use(bodyParser.json());
  // Define a rate limit
 const limiter = rateLimit({
     windowMs: 15 * 60 * 1000, // 15 minutes
