@@ -20,6 +20,20 @@ const DataSchema= mongoose.Schema({
         type:String,
         required:true
     },  
+    Phone:{
+        type:String,
+        //custom validation
+        validate: {
+            validator: function(value) {
+              if (value.length ===11) {
+                return true;
+              } else {
+                return false
+              }
+            },
+            message:`this is not a valid phone number!`
+          },
+    }
 
 
 },{timestamps:true})   //timestamps:true will automatically add the created_at and updated_at fields to the schema
